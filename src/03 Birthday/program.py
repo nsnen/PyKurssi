@@ -14,7 +14,6 @@ def diff():
     today = datetime.date.today()
     bdate = datetime.date(today.year, bmonth, bday)
     days = (today - bdate).days
-    print(days)
     return days
 
 
@@ -25,6 +24,7 @@ def tell(num):
         print('ur bday was already ' + str(num) + ' days ago')
     else:
         print('Happy birthday!')
+
 
 def main():
     header()
